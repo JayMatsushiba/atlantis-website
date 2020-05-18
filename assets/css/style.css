@@ -11,8 +11,13 @@ h5 {
   font-size: 1rem;
 }
 
-h1, h2, h3, h4, h5 {
-  font-family: "Open Sans", sans-serif;
+h2 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h3, h4, h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
 }
 
 a:hover {
@@ -28,7 +33,7 @@ a:hover {
 #landing-page-table {
   height: 100vh;
   width: 100vw;
-  background-color: rgba(71, 75, 255, 0.3);
+  background-color: rgba(40, 50, 78, 0.5);
 }
 
 #title {
@@ -44,11 +49,11 @@ h1 {
 }
 
 #aquahacking-page {
-  background-color: #232323;
+  background-color: #28324e;
 }
 
 #team-page {
-  background-color: #232323;
+  background-color: #28324e;
   color: white;
 }
 
@@ -57,7 +62,7 @@ h1 {
 }
 
 #contact-page {
-  background-color: black;
+  background-color: #3E4366;
   color: white;
 }
 

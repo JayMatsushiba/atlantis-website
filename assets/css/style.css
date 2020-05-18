@@ -1,3 +1,16 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: url(../images/flood-video.gif), no-repeat center center fixed;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 a {
   text-decoration: none;
   color: #91E9F2;
@@ -28,19 +41,46 @@ a:hover {
   color: white;
 }
 
-#landing-page {
-  background: url(../images/flood-video.gif), no-repeat center center fixed;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+hr {
+  margin: 0 0 0 0;
+  border-color: #0A5926;
+  border-style: solid;
+  border-width: 3px;
 }
 
 #landing-page-table {
   height: 100vh;
   width: 100vw;
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+#arrow {
+  font-size: 4rem;
+  position: absolute;
+  left: 50%;
+  top: 90%;
+  color: rgba(255, 255, 255, 0);
+  margin: 0;
+  padding: 0;
+  animation-delay: 2s;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-name: fadeInOut;
+}
+
+@keyframes fadeInOut {
+  from {
+    color: rgba(255, 255, 255, 0);
+  }
+  50% {
+    color: white;
+  }
+  to {
+    color: rgba(255, 255, 255, 0);
+  }
+}
+.content {
+  background-color: white;
 }
 
 #title {
@@ -57,7 +97,7 @@ h1 {
 }
 
 #aquahacking-page {
-  background-color: #0A7324;
+  background-color: rgba(20, 104, 41, 0.856);
 }
 #aquahacking-page a {
   color: white;
@@ -67,11 +107,11 @@ h1 {
 }
 
 #project-page {
-  background-color: #0A7324;
+  background-color: rgba(20, 104, 41, 0.856);
 }
 
 #team-page {
-  background-color: #0A7324;
+  background-color: rgba(20, 104, 41, 0.856);
   color: white;
 }
 
@@ -80,7 +120,7 @@ h1 {
 }
 
 #contact-page {
-  background-color: #0A7324;
+  background-color: rgba(20, 104, 41, 0.856);
   color: white;
 }
 

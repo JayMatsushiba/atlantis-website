@@ -60,6 +60,10 @@ h1 {
   color: white;
 }
 
+#project-page {
+  background-color: #3E4366;
+}
+
 #team-page {
   background-color: #28324e;
   color: white;

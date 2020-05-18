@@ -18,9 +18,26 @@ body {
     background-size: cover;
 }
 
-a {
-    text-decoration: none;
-    color: $link-color;
+section {
+    width: 100vw
+}
+
+h1 {
+    font-size: calc(50px + (90 - 50) * ((100vw - 300px) / (1600 - 300)));
+    text-decoration: underline;
+}
+
+h2 {
+    color: $bright-color;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 1.5rem;
+}
+
+h2, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
 }
 
 p {
@@ -29,18 +46,9 @@ p {
     font-weight: 100;
 }
 
-h5 {
-    font-size: 1.5rem;
-}
-
-h2 {
-    font-family: 'Montserrat', sans-serif;
-    color: $bright-color;
-    font-weight: bold;
-}
-
-h3, h4, h5 {
-    font-family: 'Montserrat', sans-serif;
+a {
+    text-decoration: none;
+    color: $link-color;
 }
 
 a:hover {
@@ -64,11 +72,9 @@ hr {
 #arrow {
     font-size: 4rem;
     position: absolute;
-    left: 50%;
-    top: 90%;
+    top: calc(100vh - 100px);
+    left: calc(50vw - 25px);
     color: rgba(255,255,255, 0);
-    margin: 0;
-    padding: 0;
 
     animation-delay: 2s;
     animation-duration: 3s;
@@ -96,11 +102,6 @@ hr {
 
 #title {
     color: $light-color;
-}
-
-h1 {
-    font-size: 7rem;
-    text-decoration: underline;
 }
 
 #subtitle {

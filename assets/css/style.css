@@ -1,5 +1,6 @@
 a {
   text-decoration: none;
+  color: #41BAFF;
 }
 
 p {
@@ -13,6 +14,7 @@ h5 {
 
 h2 {
   font-family: "Montserrat", sans-serif;
+  color: #f3c649;
 }
 
 h3, h4, h5 {
@@ -50,6 +52,12 @@ h1 {
 
 #aquahacking-page {
   background-color: #28324e;
+}
+#aquahacking-page a {
+  color: #f3c649;
+}
+#aquahacking-page a:hover {
+  color: white;
 }
 
 #team-page {

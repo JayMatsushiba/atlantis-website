@@ -1,10 +1,12 @@
 $footer-color: #3E4366;
 $darker-color: rgb(40, 50, 78);
-$bright-color: #FFDD2C;
+$bright-color: #f3c649;
 $light-color: white;
+$link-color: #41BAFF;
 
 a {
     text-decoration: none;
+    color: $link-color;
 }
 
 p {
@@ -18,6 +20,7 @@ h5 {
 
 h2 {
     font-family: 'Montserrat', sans-serif;
+    color: $bright-color;
 }
 
 h3, h4, h5 {
@@ -55,6 +58,12 @@ h1 {
 
 #aquahacking-page {
     background-color: $darker-color;
+    a {
+        color: $bright-color
+    } 
+    a:hover {
+        color: $light-color
+    }
 }
 
 #team-page {

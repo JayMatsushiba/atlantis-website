@@ -1,8 +1,9 @@
-$footer-color: #3E4366;
-$darker-color: rgb(40, 50, 78);
-$bright-color: #f3c649;
+$title-color: #0A7324;
+$darker-color: #0A5926;
+$bright-color: white;
 $light-color: white;
-$link-color: #41BAFF;
+$link-color: #91E9F2;
+$lighter-color: #BFB3A4;
 
 a {
     text-decoration: none;
@@ -22,11 +23,11 @@ h5 {
 h2 {
     font-family: 'Montserrat', sans-serif;
     color: $bright-color;
+    font-weight: bold;
 }
 
 h3, h4, h5 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
 }
 
 a:hover {
@@ -46,7 +47,7 @@ a:hover {
 #landing-page-table {
     height: 100vh; 
     width: 100vw; 
-    background-color: rgba(40, 50, 78, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 #title {
@@ -63,7 +64,7 @@ h1 {
 }
 
 #aquahacking-page {
-    background-color: $darker-color;
+    background-color: $title-color;
     a {
         color: $bright-color
     } 
@@ -73,11 +74,11 @@ h1 {
 }
 
 #project-page {
-    background-color: $footer-color;
+    background-color: $title-color;
 }
 
 #team-page {
-    background-color: $darker-color;
+    background-color: $title-color;
     color: $light-color;
 }
 
@@ -86,7 +87,7 @@ h1 {
 }
 
 #contact-page {
-    background-color: $footer-color;
+    background-color: $title-color;
     color: $light-color;
 }
 

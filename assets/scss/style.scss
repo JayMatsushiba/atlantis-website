@@ -1,0 +1,72 @@
+$darkest-color: black;
+$darker-color: #232323;
+$bright-color: #FFDD2C;
+$light-color: white;
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 0.75rem;
+    font-family: 'Ubuntu', sans-serif;;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+    color: $light-color;
+}
+
+#landing-page {
+    background-image: url(../images/flood-video.gif);
+    background-attachment: fixed;
+}
+
+#landing-page-table {
+    height: 100vh; 
+    width: 100vw; 
+    background-color: rgba(71, 75, 255, 0.3);
+}
+
+#title {
+    color: $light-color;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+#subtitle {
+    font-size: 1.1rem;
+}
+
+#aquahacking-page {
+    background-color: $darker-color;
+}
+
+#team-page {
+    background-color: $darker-color;
+    color: $light-color;
+}
+
+.team-media {
+    font-size: 2rem;
+}
+
+#contact-page {
+    background-color: $darkest-color;
+    color: $light-color;
+}
+
+.social-media {
+    margin: 5px;
+    font-size: 4rem;
+}

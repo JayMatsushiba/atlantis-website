@@ -6,10 +6,11 @@ a {
 p {
   font-size: 1rem;
   font-family: "Ubuntu", sans-serif;
+  font-weight: 100;
 }
 
 h5 {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 h2 {
@@ -19,7 +20,7 @@ h2 {
 
 h3, h4, h5 {
   font-family: "Montserrat", sans-serif;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 a:hover {
@@ -47,11 +48,12 @@ a:hover {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 7rem;
+  text-decoration: underline;
 }
 
 #subtitle {
-  font-size: 1.1rem;
+  font-size: 1.6rem;
 }
 
 #aquahacking-page {

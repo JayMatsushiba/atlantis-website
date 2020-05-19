@@ -48,12 +48,10 @@ p {
 
 a {
     text-decoration: none;
-    color: $link-color;
 }
 
 a:hover {
     text-decoration: none;
-    color: $light-color;
 }
 
 hr {
@@ -111,15 +109,33 @@ hr {
 #aquahacking-page {
     background-color: $title-color;
     a {
-        color: $bright-color
+        transition: 0.3s;
+        color: $bright-color;
+        font-size: 2rem;
     } 
     a:hover {
-        color: $light-color
+        transition: 0.3s;
+        color: $lighter-color;
+        font-size: 2.1rem;
     }
 }
 
+
 #project-page {
     background-color: $title-color;
+}
+
+#project-content {
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    hr {
+        border-width: 1px;
+        border-color: $lighter-color;
+        border-radius: 35%;
+    }
 }
 
 #team-page {
@@ -127,13 +143,28 @@ hr {
     color: $light-color;
 }
 
-.team-media {
-    font-size: 1.5rem;
+#team-content {
+    a {
+        font-size: 1.5rem;
+        color: $darker-color;
+        :hover {
+            color: $lighter-color;
+            transition: 0.3s;
+        }
+    }
 }
 
 #contact-page {
     background-color: $title-color;
     color: $light-color;
+    a {
+        color: $link-color;
+        transition: 0.3s;
+        :hover {
+            color: $bright-color;
+            transition: 0.3s;
+        }
+    }
 }
 
 .social-media {

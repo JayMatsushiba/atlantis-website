@@ -19,7 +19,11 @@ body {
 }
 
 section {
-    width: 100vw
+    width: 100vw;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 h1 {
@@ -70,7 +74,7 @@ hr {
 #arrow {
     font-size: 4rem;
     position: absolute;
-    top: calc(100vh - 100px);
+    top: calc(100vh - 150px);
     left: calc(50vw - 25px);
     color: rgba(255,255,255, 0);
 
@@ -94,12 +98,17 @@ hr {
     }
 }
 
+.page-title {
+    background-color: $title-color;
+}
+
 .content {
     background-color: $light-color;
 }
 
 #title {
     color: $light-color;
+    top: 50%;
 }
 
 #subtitle {
@@ -107,7 +116,6 @@ hr {
 }
 
 #aquahacking-page {
-    background-color: $title-color;
     a {
         transition: 0.3s;
         color: $bright-color;
@@ -118,11 +126,6 @@ hr {
         color: $lighter-color;
         font-size: 2.1rem;
     }
-}
-
-
-#project-page {
-    background-color: $title-color;
 }
 
 #project-content {
@@ -139,7 +142,6 @@ hr {
 }
 
 #team-page {
-    background-color: $title-color;
     color: $light-color;
 }
 
@@ -157,6 +159,8 @@ hr {
 #contact-page {
     background-color: $title-color;
     color: $light-color;
+padding-bottom: 30px;
+
     a {
         color: $link-color;
         transition: 0.3s;

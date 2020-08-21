@@ -9,6 +9,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+	
 }
 
 section {
@@ -16,7 +17,7 @@ section {
 }
 
 nav {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 100, 0.7);
 }
 
 h1 {
@@ -53,7 +54,7 @@ a:hover {
 
 hr {
   margin: 0 0 0 0;
-  border-color: #0A5926;
+  border-color: ##074eab;
   border-style: solid;
   border-width: 3px;
 }
@@ -88,7 +89,7 @@ hr {
   }
 }
 .page-title {
-  background-color: rgba(20, 104, 41, 0.856);
+  background-color: rgba(0, 0, 100, 0.8);
 }
 
 .content {
@@ -140,7 +141,7 @@ hr {
 }
 
 #contact-page {
-  background-color: rgba(20, 104, 41, 0.856);
+  background-color: rgba(0, 0, 100, 0.856);
   color: white;
   padding-bottom: 30px;
 }

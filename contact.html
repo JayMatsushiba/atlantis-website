@@ -46,57 +46,21 @@
 
       <div class="container animate__animated animate__fadeInUp">
         <h1 class="title display-1"><strong>Contact</strong></h1>
-        <p class="subtitle">Stay in touch.</p>
       </div>
       
-      <div class="container mt-4 animate__animated animate__fadeInUp animate__delay-1s pt-4">
-        <div class="row">
-          <div class="col">
-            <form>
-              <div class="form-group row">
-                <label for="InputEmail" class="pt-2 col-sm-2">Email address</label>
-                <div class="col-sm-10">
+      <div class="container animate__animated animate__fadeInUp animate__delay-1s pt-4">
 
-                  <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Enter email">
-                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            <form action="https://formspree.io/f/myybpeon" method="POST">
+              <div class="form-group row">
+                <div class="col-sm-10">
+                  <p class="subtitle ml-3">Stay in touch.</p>
+                  <input type="email" name="_replyto" class="form-control m-3" id="InputEmail" aria-describedby="emailHelp" placeholder="Enter email">
+                  <input type="hidden" name="_subject" class="m-3" value="Contact request from Above Atlantis website" />
+                  <textarea name="message" class="form-control m-3" id="InputContent" rows="3" placeholder="Type your message"></textarea>
+                  <button type="submit" value="Send" class="btn btn-primary zoom ml-3">Submit</button>
                 </div>
               </div>
-              <div class="form-group row">
-                <label for="InputName" class="pt-2 col-sm-2">Name</label>
-                <div class="col-sm-10">
-                  <div class="form-row m-0">
-                    <input type="text" class="form-control col" id="InputName" placeholder="  First name">
-                    <input type="text" class="form-control col ml-1" id="InputName" placeholder="Last name">
-                  </div>
-                </div>
-              </div>
-              <div class="form-group row">
-                <label for="InputCompany" class="pt-2 col-sm-2">Company / Institution</label>
-                <div class="col-sm-10">
-                  <input type="text" class="form-control" id="InputCompany" placeholder="Enter company/institution">
-
-                </div>
-              </div>
-              <div class="form-group row">
-                <label for="InputSubject" class="pt-2 col-sm-2">Subject line</label>
-                <div class="col-sm-10">
-                  <input type="text" class="form-control" id="InputSubject" placeholder="Enter subject line">
-
-                </div>
-              </div>
-              <div class="form-group row">
-                <label for="InputContent" class="pt-2 col-sm-2">Message</label>
-                <div class="col-sm-10">
-                  <textarea class="form-control" id="InputContent" rows="3" placeholder="Enter message"></textarea>
-
-                </div>
-              </div>
-
-              <button type="submit" class="btn btn-primary zoom">Submit</button>
             </form>
-          </div>
-        </div>
-      </div>
 
 
 
